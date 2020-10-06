@@ -1,60 +1,78 @@
 
-*{
+html{
 	box-sizing: border-box;
+	font-family: Georgia, 'Times New Roman', Times, serif,
 }
+
 .container{
-	background-color: white;
+	margin:0 auto;
+	width: 90%;
+	padding: 25px;
+}
+
+header{
 	margin:0 auto;
 	width: 90%;
 	padding: 25px;
 }
 
 img{
-	margin-left: auto;
-	margin-right: auto;
+	display: block;
+	margin: 0 auto;
 	width: 80%;
 	padding: 25px;
+}
+
+.moto{
+	margin:0 auto;
+	padding: 5px;
+	text-align: center;
+	font-size: 1em;
 }
 
 h1{
 	padding: 5px;
 	text-align: center;
-	font-family: 'Roboto',sans-serif;
-	font-size: 5em;
-}
-
-.moto{
-	padding: 5px;
-	text-align: center;
-	font-family: 'Roboto',sans-serif;
-	font-size: 1em;
+	font-size: 7em;
+	border-bottom: double rgb(158, 158, 158);
 }
 
 .navigation {
+	display: flex;
 	margin:0 auto;
-	width: 80%
+	width: 95%;
+	
 }
 
 .navigation article{
-	display: inline-block;
-	margin:0 auto;
-	width: 20%;
-	padding: 15px;
+	margin: auto ;
+	width: 25%;
+	text-align: left;
+	overflow: hidden;
 }
 
-.footer {
-	margin:0 auto;
-	width: 100%
+article h3{
+	display: flex;
+	font-size: 2em;
 }
 
-.footer *{
-	display: inline-block;
+article i{
+    margin-left: 5px;	
+ 	color: darkgray;
+}
+
+footer {
 	margin:0 auto;
-	width: 27%;
-	padding: 5px;
+	width: 100%;
+	text-align: center;
 }
-.footer p{
-	width:30%;
+
+span{
+	color: darkgray;
 }
+
+
+
+
 
 
